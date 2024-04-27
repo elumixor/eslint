@@ -3,7 +3,7 @@
   "description": "My eslint config",
   "keywords": [],
   "license": "ISC",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "config.js",
   "scripts": {
     "build": "tsup",
