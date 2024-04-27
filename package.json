@@ -5,6 +5,10 @@
   "license": "ISC",
   "version": "0.1.0",
   "main": "config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elumixor/angular-util.git"
+  },
   "scripts": {
     "build": "tsup",
     "test": "bun test",
