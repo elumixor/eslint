@@ -52,7 +52,11 @@ module.exports = {
         ],
         "@typescript-eslint/no-unused-vars": [
           "error",
-          { varsIgnorePattern: "^_" },
+          {
+            argsIgnorePattern: "^_",
+            varsIgnorePattern: "^_.*",
+            ignoreRestSiblings: true,
+          },
         ],
         "object-shorthand": "error",
         "no-console": "error",
