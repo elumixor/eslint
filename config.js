@@ -53,7 +53,7 @@ module.exports = {
         "@typescript-eslint/no-unused-vars": [
           "error",
           {
-            argsIgnorePattern: "^_",
+            argsIgnorePattern: "^_.*",
             varsIgnorePattern: "^_.*",
             ignoreRestSiblings: true,
           },
@@ -79,6 +79,7 @@ module.exports = {
         "@angular-eslint/template/prefer-ngsrc": "error",
         "@angular-eslint/template/no-any": "error",
         "@angular-eslint/template/attributes-order": "error",
+        "no-unused-vars": "off",
       },
     },
   ],
