@@ -58,6 +58,10 @@ module.exports = {
             ignoreRestSiblings: true,
           },
         ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          "error",
+          { accessibility: "no-public" },
+        ],
         "object-shorthand": "error",
         "no-console": "error",
         "no-useless-rename": "error",
